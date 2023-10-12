@@ -1,5 +1,5 @@
 {% set name = "xroms" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xroms-{{ version }}.tar.gz
-  sha256: 4c472a00101848169a22af285705f14461be6a80e69119890667714e54ec8806
+  sha256: 367cbf56750dd25fcbd756f970661dd2c1511a7369c2f7f96785b640cc459d88
 
 build:
   noarch: python
