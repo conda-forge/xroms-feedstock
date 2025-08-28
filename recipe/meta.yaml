@@ -30,7 +30,7 @@ requirements:
     - numpy
     - pooch
     - xarray
-    - xgcm >=0.8.1
+    - xgcm ==0.8.1
 
 test:
   imports:
